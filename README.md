@@ -1,12 +1,12 @@
-# Ecoleta
-Projeto construído durante a Next Level Week da Rocketseat.
+# ♻ Ecoleta
+Projeto construído durante a Next Level Week da Rocketseat 🚀.
 
-Você pode usar o arquivo de coleção do Postman para testar a API.
+Você pode usar o arquivo de coleção do Postman para testar a API 🎉.
 
 Typescript, axios, maps, file upload.
 
 
-## Front-End (Web)
+## Front-End (Web) 👩‍💻
 React
 
 ``yarn``  
@@ -15,7 +15,7 @@ React
 - react-leaflet
 - react-dropzone
 
-## Font-End (Mobile)
+## Font-End (Mobile) 📱
 React-Native
 
 ``yarn``  
@@ -23,7 +23,7 @@ React-Native
 
 - react-native-maps
 
-## Back-End
+## Back-End 🖥
 Node.js
 
 ``npm i``  
