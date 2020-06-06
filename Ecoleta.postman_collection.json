@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "ef59e0eb-dcf7-4496-ab0b-66174e987592",
+		"name": "Ecoleta",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/items",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Points",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Mercado do Zé",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "contato@mercadoze.com.br",
+							"type": "text"
+						},
+						{
+							"key": "whatsapp",
+							"value": "1798938262",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "-45",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "66",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Penapolis",
+							"type": "text"
+						},
+						{
+							"key": "uf",
+							"value": "SP",
+							"type": "text"
+						},
+						{
+							"key": "items",
+							"value": "1,2,3",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/marif/Desktop/photo-1565061828011-282424b9ab40.jpg"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/points",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"points"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Point",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/points/3",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"points",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Points",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/points?city=Penapolis&uf=SP&items=1,2,3",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"points"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Penapolis"
+						},
+						{
+							"key": "uf",
+							"value": "SP"
+						},
+						{
+							"key": "items",
+							"value": "1,2,3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
