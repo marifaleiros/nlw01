@@ -1,0 +1,10 @@
+/node_modules/
+src/database/database.sqlite
+/uploads/*
+!/uploads/baterias.svg
+!/uploads/eletronicos.svg
+!/uploads/lampadas.svg
+!/uploads/oleo.svg
+!/uploads/organicos.svg
+!/uploads/papeis-papelao.svg
+package-lock.json
