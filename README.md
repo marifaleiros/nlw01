@@ -1,6 +1,8 @@
 # Ecoleta
 Projeto construído durante a Next Level Week da Rocketseat.
 
+Você pode usar o arquivo de coleção do Postman para testar a API.
+
 Typescript, axios, maps, file upload.
 
 
